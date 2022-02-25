@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/utils/index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1645635240373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1645711184888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,17 @@\n+import {RFPercentage,RFValue}from \"react-native-responsive-fontsize\"\r\n \r\n const fontSF =\"SF_pro_regular\"\r\n+const fontVerySmall=RFPercentage(2)   //14\r\n+const fontSmall=RFPercentage(2.285)   //16\r\n+const fontMedium=RFPercentage(2.571)  //18\r\n+const fontLage=RFPercentage(2.857)    //20\r\n+const fontBig=RFPercentage(3.1428)\r\n \r\n-\r\n export default fonts={\r\n-fontSF\r\n+fontSF,\r\n+fontVerySmall,\r\n+fontSmall,\r\n+fontMedium,\r\n+fontLage,\r\n+fontBig\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645711251616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,15 +3,15 @@\n const fontSF =\"SF_pro_regular\"\r\n const fontVerySmall=RFPercentage(2)   //14\r\n const fontSmall=RFPercentage(2.285)   //16\r\n const fontMedium=RFPercentage(2.571)  //18\r\n-const fontLage=RFPercentage(2.857)    //20\r\n+const fontLarge=RFPercentage(2.857)    //20\r\n const fontBig=RFPercentage(3.1428)\r\n \r\n export default fonts={\r\n fontSF,\r\n fontVerySmall,\r\n fontSmall,\r\n fontMedium,\r\n-fontLage,\r\n+fontLarge,\r\n fontBig\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645711449192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,17 @@\n-import {RFPercentage,RFValue}from \"react-native-responsive-fontsize\"\r\n+import { RFPercentage, RFValue } from \"react-native-responsive-fontsize\"\r\n \r\n-const fontSF =\"SF_pro_regular\"\r\n-const fontVerySmall=RFPercentage(2)   //14\r\n-const fontSmall=RFPercentage(2.285)   //16\r\n-const fontMedium=RFPercentage(2.571)  //18\r\n-const fontLarge=RFPercentage(2.857)    //20\r\n-const fontBig=RFPercentage(3.1428)\r\n+const fontSF = \"SF_pro_regular\"\r\n+const fontVerySmall = RFPercentage(2)   //14\r\n+const fontSmall = RFPercentage(2.285)   //16\r\n+const fontMedium = RFPercentage(2.571)  //18\r\n+const fontLarge = RFPercentage(2.857)    //20\r\n+const fontBig = RFPercentage(3.1428)\r\n \r\n-export default fonts={\r\n-fontSF,\r\n-fontVerySmall,\r\n-fontSmall,\r\n-fontMedium,\r\n-fontLarge,\r\n-fontBig\r\n+export default fonts = {\r\n+    fontSF,\r\n+    fontVerySmall,\r\n+    fontSmall,\r\n+    fontMedium,\r\n+    fontLarge,\r\n+    fontBig\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645718887850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n import { RFPercentage, RFValue } from \"react-native-responsive-fontsize\"\r\n \r\n const fontSF = \"SF_pro_regular\"\r\n-const fontVerySmall = RFPercentage(2)   //14\r\n-const fontSmall = RFPercentage(2.285)   //16\r\n-const fontMedium = RFPercentage(2.571)  //18\r\n-const fontLarge = RFPercentage(2.857)    //20\r\n-const fontBig = RFPercentage(3.1428)\r\n+const fontVerySmall = RFPercentage(2.25)   //14\r\n+const fontSmall = RFPercentage(2.571)   //16\r\n+const fontMedium = RFPercentage(2.892)  //18\r\n+const fontLarge = RFPercentage(3.214)    //20\r\n+const fontBig = RFPercentage(3.5357)     //22\r\n \r\n export default fonts = {\r\n     fontSF,\r\n     fontVerySmall,\r\n"
+                },
+                {
+                    "date": 1645719092790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,14 @@\n import { RFPercentage, RFValue } from \"react-native-responsive-fontsize\"\r\n \r\n const fontSF = \"SF_pro_regular\"\r\n-const fontVerySmall = RFPercentage(2.25)   //14\r\n-const fontSmall = RFPercentage(2.571)   //16\r\n-const fontMedium = RFPercentage(2.892)  //18\r\n-const fontLarge = RFPercentage(3.214)    //20\r\n-const fontBig = RFPercentage(3.5357)     //22\r\n \r\n+const fontVerySmall = RFPercentage(2)   //12\r\n+const fontSmall = RFPercentage(2.3333)   //14\r\n+const fontMedium = RFPercentage(2.6666)  //16\r\n+const fontLarge = RFPercentage(3)    //18\r\n+const fontBig = RFPercentage(3.6666)     //22\r\n+\r\n export default fonts = {\r\n     fontSF,\r\n     fontVerySmall,\r\n     fontSmall,\r\n"
+                }
+            ],
+            "date": 1645635240373,
+            "name": "Commit-0",
+            "content": "\r\nconst fontSF =\"SF_pro_regular\"\r\n\r\n\r\nexport default fonts={\r\nfontSF\r\n}"
+        }
+    ]
+}

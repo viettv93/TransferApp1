@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/utils/image/index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1645805769185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1645805769185,
+            "name": "Commit-0",
+            "content": "\r\nconst home_background=require(\"./home_img/background.png\")\r\nconst home_search=require(\"./home_img/search.png\")\r\nconst home_notification=require(\"./home_img/notification.png\")\r\nconst home_qrCode=require(\"./home_img/qrCode.png\")\r\n\r\n\r\nexport default img={\r\n    home_background,\r\n    home_notification,\r\n    home_qrCode,\r\n    home_search\r\n}"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "sourceFile": "index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1645631531870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1645633022508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,8 @@\n \n import {AppRegistry} from 'react-native';\n \n import {name as appName} from './app.json';\n+import Onboarding from './src/component/login/Onboarding_Screen';\n import Main from './src/component/Main';\n \n-AppRegistry.registerComponent(appName, () => Main);\n+AppRegistry.registerComponent(appName, () => Onboarding);\n"
+                },
+                {
+                    "date": 1645712976415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n \n import {AppRegistry} from 'react-native';\n \n import {name as appName} from './app.json';\n+import Login from './src/component/login/Login_Screen';\n import Onboarding from './src/component/login/Onboarding_Screen';\n import Main from './src/component/Main';\n \n-AppRegistry.registerComponent(appName, () => Onboarding);\n+AppRegistry.registerComponent(appName, () => Login);\n"
+                },
+                {
+                    "date": 1645720296933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,8 @@\n \n import {name as appName} from './app.json';\n import Login from './src/component/login/Login_Screen';\n import Onboarding from './src/component/login/Onboarding_Screen';\n+import SignIn from './src/component/login/SignIn';\n import Main from './src/component/Main';\n \n-AppRegistry.registerComponent(appName, () => Login);\n+AppRegistry.registerComponent(appName, () => SignIn);\n"
+                },
+                {
+                    "date": 1645803333537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,5 @@\n import Onboarding from './src/component/login/Onboarding_Screen';\n import SignIn from './src/component/login/SignIn';\n import Main from './src/component/Main';\n \n-AppRegistry.registerComponent(appName, () => SignIn);\n+AppRegistry.registerComponent(appName, () => Main);\n"
+                },
+                {
+                    "date": 1645804006972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,8 @@\n import {name as appName} from './app.json';\n import Login from './src/component/login/Login_Screen';\n import Onboarding from './src/component/login/Onboarding_Screen';\n import SignIn from './src/component/login/SignIn';\n+import MyApp from './src/component/Main';\n import Main from './src/component/Main';\n \n-AppRegistry.registerComponent(appName, () => Main);\n+AppRegistry.registerComponent(appName, () => MyApp);\n"
+                }
+            ],
+            "date": 1645631531870,
+            "name": "Commit-0",
+            "content": "/**\n * @format\n */\n\nimport {AppRegistry} from 'react-native';\n\nimport {name as appName} from './app.json';\nimport Main from './src/component/Main';\n\nAppRegistry.registerComponent(appName, () => Main);\n"
+        }
+    ]
+}
