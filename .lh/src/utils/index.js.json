@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1645635240373,
@@ -28,6 +28,26 @@
                 {
                     "date": 1645719092790,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,14 @@\n import { RFPercentage, RFValue } from \"react-native-responsive-fontsize\"\r\n \r\n const fontSF = \"SF_pro_regular\"\r\n-const fontVerySmall = RFPercentage(2.25)   //14\r\n-const fontSmall = RFPercentage(2.571)   //16\r\n-const fontMedium = RFPercentage(2.892)  //18\r\n-const fontLarge = RFPercentage(3.214)    //20\r\n-const fontBig = RFPercentage(3.5357)     //22\r\n \r\n+const fontVerySmall = RFPercentage(2)   //12\r\n+const fontSmall = RFPercentage(2.3333)   //14\r\n+const fontMedium = RFPercentage(2.6666)  //16\r\n+const fontLarge = RFPercentage(3)    //18\r\n+const fontBig = RFPercentage(3.6666)     //22\r\n+\r\n export default fonts = {\r\n     fontSF,\r\n     fontVerySmall,\r\n     fontSmall,\r\n"
+                },
+                {
+                    "date": 1645807080895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n const fontMedium = RFPercentage(2.6666)  //16\r\n const fontLarge = RFPercentage(3)    //18\r\n const fontBig = RFPercentage(3.6666)     //22\r\n \r\n+\r\n export default fonts = {\r\n     fontSF,\r\n     fontVerySmall,\r\n     fontSmall,\r\n"
+                },
+                {
+                    "date": 1645877302236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n import { RFPercentage, RFValue } from \"react-native-responsive-fontsize\"\r\n \r\n const fontSF = \"SF_pro_regular\"\r\n \r\n-const fontVerySmall = RFPercentage(2)   //12\r\n-const fontSmall = RFPercentage(2.3333)   //14\r\n-const fontMedium = RFPercentage(2.6666)  //16\r\n-const fontLarge = RFPercentage(3)    //18\r\n-const fontBig = RFPercentage(3.6666)     //22\r\n+const fontVerySmall = RFPercentage(1.5)   //12\r\n+const fontSmall = RFPercentage(1.75)   //14\r\n+const fontMedium = RFPercentage(2)  //16\r\n+const fontLarge = RFPercentage(2.25)    //18\r\n+const fontBig = RFPercentage(2.75)     //22\r\n \r\n \r\n export default fonts = {\r\n     fontSF,\r\n"
+                },
+                {
+                    "date": 1645878680998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,30 @@\n const fontMedium = RFPercentage(2)  //16\r\n const fontLarge = RFPercentage(2.25)    //18\r\n const fontBig = RFPercentage(2.75)     //22\r\n \r\n-\r\n+const white = \"#FFFFFF\"\r\n+const black1 = \"#2C2929\"\r\n+const black2 = \"#302D20\"\r\n+const black3 = \"#272727\"\r\n+const red = \"#C42829\"\r\n+const blue = \"#009ADD\"\r\n+const blue2 = \"#047A9F\"\r\n+const green = \"#2CC197\"\r\n+const pink =\"#59597C\"\r\n export default fonts = {\r\n     fontSF,\r\n     fontVerySmall,\r\n     fontSmall,\r\n     fontMedium,\r\n     fontLarge,\r\n-    fontBig\r\n+    fontBig,\r\n+    white,\r\n+    black1,\r\n+    black2,\r\n+    black3,\r\n+    blue,\r\n+    blue2,\r\n+    green,\r\n+    red,\r\n+    pink\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1646661197073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,9 @@\n const blue = \"#009ADD\"\r\n const blue2 = \"#047A9F\"\r\n const green = \"#2CC197\"\r\n const pink =\"#59597C\"\r\n+const default_color=\"#E5E5E5\"\r\n export default fonts = {\r\n     fontSF,\r\n     fontVerySmall,\r\n     fontSmall,\r\n@@ -31,6 +32,6 @@\n     blue,\r\n     blue2,\r\n     green,\r\n     red,\r\n-    pink\r\n+    pink, default_color\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1646661938032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n const blue2 = \"#047A9F\"\r\n const green = \"#2CC197\"\r\n const pink =\"#59597C\"\r\n const default_color=\"#E5E5E5\"\r\n+const gray=\"#9C9C9C\"\r\n export default fonts = {\r\n     fontSF,\r\n     fontVerySmall,\r\n     fontSmall,\r\n@@ -32,6 +33,6 @@\n     blue,\r\n     blue2,\r\n     green,\r\n     red,\r\n-    pink, default_color\r\n+    pink, default_color, gray\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1645635240373,

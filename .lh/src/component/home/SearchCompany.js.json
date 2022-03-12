@@ -1,0 +1,54 @@
+{
+    "sourceFile": "src/component/home/SearchCompany.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1647097705503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1647097739299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \r\n \r\n     return (\r\n         <View style={{ flex: 1, backgroundColor: fonts.default_color }}>\r\n-            <View style={{width: \"100%\", height: 50, backgroundColor: fonts.red, flexDirection: \"row\"}}>\r\n+            <View style={{width: \"100%\", height: 50, backgroundColor: fonts.red, flexDirection: \"row\", alignItems: 'center', justifyContent: 'space-between'}}>\r\n              <Icon name= 'arrow-back-ios' color={fonts.white} size={20}/>\r\n              <Text style={{fontFamily: fonts.fontSF,fontSize:fonts.fontMedium, color:fonts.white }}>Tìm kiếm doanh nghiệp</Text>\r\n              <Text style={{fontFamily: fonts.fontSF,fontSize:fonts.fontMedium, color:fonts.white, fontWeight: '700' }}\r\n               onPress={()=>{}}\r\n"
+                },
+                {
+                    "date": 1647097751705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n \r\n \r\n     return (\r\n         <View style={{ flex: 1, backgroundColor: fonts.default_color }}>\r\n-            <View style={{width: \"100%\", height: 50, backgroundColor: fonts.red, flexDirection: \"row\", alignItems: 'center', justifyContent: 'space-between'}}>\r\n+            <View style={{width: \"100%\", height: 50, backgroundColor: fonts.red, flexDirection: \"row\", alignItems: 'center', justifyContent: 'space-between', paddingHorizontal:15}}>\r\n              <Icon name= 'arrow-back-ios' color={fonts.white} size={20}/>\r\n              <Text style={{fontFamily: fonts.fontSF,fontSize:fonts.fontMedium, color:fonts.white }}>Tìm kiếm doanh nghiệp</Text>\r\n              <Text style={{fontFamily: fonts.fontSF,fontSize:fonts.fontMedium, color:fonts.white, fontWeight: '700' }}\r\n               onPress={()=>{}}\r\n"
+                },
+                {
+                    "date": 1647097773930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n              <Icon name= 'arrow-back-ios' color={fonts.white} size={20}/>\r\n              <Text style={{fontFamily: fonts.fontSF,fontSize:fonts.fontMedium, color:fonts.white }}>Tìm kiếm doanh nghiệp</Text>\r\n              <Text style={{fontFamily: fonts.fontSF,fontSize:fonts.fontMedium, color:fonts.white, fontWeight: '700' }}\r\n               onPress={()=>{}}\r\n-              >Lưu</Text>\r\n+              >Xong</Text>\r\n             </View>\r\n \r\n             <View style={{flexDirection: 'row',backgroundColor: fonts.white, borderRadius: 7,marginHorizontal: 15}}>\r\n \r\n"
+                },
+                {
+                    "date": 1647097971794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,11 +15,11 @@\n              <Text style={{fontFamily: fonts.fontSF,fontSize:fonts.fontMedium, color:fonts.white, fontWeight: '700' }}\r\n               onPress={()=>{}}\r\n               >Xong</Text>\r\n             </View>\r\n-\r\n-            <View style={{flexDirection: 'row',backgroundColor: fonts.white, borderRadius: 7,marginHorizontal: 15}}>\r\n-\r\n+            <View style={{flexDirection: 'row',backgroundColor: fonts.white, borderRadius: 7,marginHorizontal: 15, paddingHorizontal: 15, alignItems: \"center\", justifyContent: 'space-between'}}>\r\n+                <Icon name='search' color={fonts.gray} size={18}/>\r\n+                <TextInput/>\r\n             </View>\r\n         </View>\r\n     )\r\n }\r\n"
+                },
+                {
+                    "date": 1647097982536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React, { useState } from 'react'\r\n-import { View , Text} from 'react-native'\r\n+import { View , Text, TextInput} from 'react-native'\r\n import fonts from '../../utils/index'\r\n import Icon from 'react-native-vector-icons/MaterialIcons'\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1647098002751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n              <Text style={{fontFamily: fonts.fontSF,fontSize:fonts.fontMedium, color:fonts.white, fontWeight: '700' }}\r\n               onPress={()=>{}}\r\n               >Xong</Text>\r\n             </View>\r\n-            <View style={{flexDirection: 'row',backgroundColor: fonts.white, borderRadius: 7,marginHorizontal: 15, paddingHorizontal: 15, alignItems: \"center\", justifyContent: 'space-between'}}>\r\n+            <View style={{flexDirection: 'row',backgroundColor: fonts.white, borderRadius: 7,margin: 10, paddingHorizontal: 15, alignItems: \"center\", justifyContent: 'space-between'}}>\r\n                 <Icon name='search' color={fonts.gray} size={18}/>\r\n                 <TextInput/>\r\n             </View>\r\n         </View>\r\n"
+                },
+                {
+                    "date": 1647098218536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,11 @@\n               >Xong</Text>\r\n             </View>\r\n             <View style={{flexDirection: 'row',backgroundColor: fonts.white, borderRadius: 7,margin: 10, paddingHorizontal: 15, alignItems: \"center\", justifyContent: 'space-between'}}>\r\n                 <Icon name='search' color={fonts.gray} size={18}/>\r\n-                <TextInput/>\r\n+                <TextInput \r\n+                placeholder='Tìm kiếm theo tên công ty hoặc mã số thuế'\r\n+                placeholderTextColor={fonts.gray}/>\r\n             </View>\r\n         </View>\r\n     )\r\n }\r\n"
+                },
+                {
+                    "date": 1647098265181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n                 <Icon name='search' color={fonts.gray} size={18}/>\r\n                 <TextInput \r\n                 placeholder='Tìm kiếm theo tên công ty hoặc mã số thuế'\r\n                 placeholderTextColor={fonts.gray}/>\r\n+                <View style={{flex:1}}/>\r\n             </View>\r\n         </View>\r\n     )\r\n }\r\n"
+                },
+                {
+                    "date": 1647098351669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n              <Text style={{fontFamily: fonts.fontSF,fontSize:fonts.fontMedium, color:fonts.white, fontWeight: '700' }}\r\n               onPress={()=>{}}\r\n               >Xong</Text>\r\n             </View>\r\n-            <View style={{flexDirection: 'row',backgroundColor: fonts.white, borderRadius: 7,margin: 10, paddingHorizontal: 15, alignItems: \"center\", justifyContent: 'space-between'}}>\r\n+            <View style={{flexDirection: 'row',backgroundColor: fonts.white, borderRadius: 7,margin: 10, paddingHorizontal: 15, alignItems: \"center\", justifyContent: 'space-between', marginHorizontal: 15}}>\r\n                 <Icon name='search' color={fonts.gray} size={18}/>\r\n                 <TextInput \r\n                 placeholder='Tìm kiếm theo tên công ty hoặc mã số thuế'\r\n                 placeholderTextColor={fonts.gray}/>\r\n"
+                }
+            ],
+            "date": 1647097705503,
+            "name": "Commit-0",
+            "content": "import React, { useState } from 'react'\r\nimport { View , Text} from 'react-native'\r\nimport fonts from '../../utils/index'\r\nimport Icon from 'react-native-vector-icons/MaterialIcons'\r\n\r\n\r\nconst SearchCompany = () => {\r\n\r\n\r\n    return (\r\n        <View style={{ flex: 1, backgroundColor: fonts.default_color }}>\r\n            <View style={{width: \"100%\", height: 50, backgroundColor: fonts.red, flexDirection: \"row\"}}>\r\n             <Icon name= 'arrow-back-ios' color={fonts.white} size={20}/>\r\n             <Text style={{fontFamily: fonts.fontSF,fontSize:fonts.fontMedium, color:fonts.white }}>Tìm kiếm doanh nghiệp</Text>\r\n             <Text style={{fontFamily: fonts.fontSF,fontSize:fonts.fontMedium, color:fonts.white, fontWeight: '700' }}\r\n              onPress={()=>{}}\r\n              >Lưu</Text>\r\n            </View>\r\n\r\n            <View style={{flexDirection: 'row',backgroundColor: fonts.white, borderRadius: 7,marginHorizontal: 15}}>\r\n\r\n            </View>\r\n        </View>\r\n    )\r\n}\r\nexport default SearchCompany"
+        }
+    ]
+}

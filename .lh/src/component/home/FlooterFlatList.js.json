@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/component/home/FlooterFlatList.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1646843796848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1646843911639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { View, Text, TouchableOpacity } from \"react-native\"\r\n import fonts from \"../../utils/index\"\r\n const FooterFlatList = () => {\r\n     return (\r\n-        <View>\r\n+        <View style={{flex: 1}}>\r\n             <View style={{ justifyContent: 'center', alignContent: 'center' }}>\r\n                 <TouchableOpacity style={{ borderRadius: 38, borderStyle: \"dashed\", borderWidth: 1, borderColor: fonts.gray, width: \"40%\", alignItems: \"center\", justifyContent: 'center', height: '15%' }}\r\n                     onPress={()=>{}}\r\n                 >\r\n"
+                }
+            ],
+            "date": 1646843796848,
+            "name": "Commit-0",
+            "content": "import React from \"react\"\r\nimport { View, Text, TouchableOpacity } from \"react-native\"\r\nimport fonts from \"../../utils/index\"\r\nconst FooterFlatList = () => {\r\n    return (\r\n        <View>\r\n            <View style={{ justifyContent: 'center', alignContent: 'center' }}>\r\n                <TouchableOpacity style={{ borderRadius: 38, borderStyle: \"dashed\", borderWidth: 1, borderColor: fonts.gray, width: \"40%\", alignItems: \"center\", justifyContent: 'center', height: '15%' }}\r\n                    onPress={()=>{}}\r\n                >\r\n                    <Text>+  Thêm cặp xe</Text>\r\n                </TouchableOpacity>\r\n            </View>\r\n            <View style={{flexDirection:\"row\"}}>\r\n            <TouchableOpacity style={{ borderRadius: 38,  borderWidth: 1, borderColor: fonts.red, width: \"40%\", alignItems: \"center\", justifyContent: 'center', height: '15%' }}\r\n                    onPress={()=>{}}\r\n                >\r\n                    <Text>Lưu bản nháp</Text>\r\n                </TouchableOpacity>\r\n                <TouchableOpacity style={{ borderRadius: 38, borderWidth: 1,backgroundColor: fonts.red, width: \"40%\", alignItems: \"center\", justifyContent: 'center', height: '15%' }}\r\n                    onPress={()=>{}}\r\n                >\r\n                    <Text>+  Thêm cặp xe</Text>\r\n                </TouchableOpacity>\r\n            </View>\r\n        </View>\r\n    )\r\n}\r\nexport default FooterFlatList"
+        }
+    ]
+}

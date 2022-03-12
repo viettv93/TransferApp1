@@ -3,11 +3,47 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1645805769185,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1645807097078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n \r\n-const home_background=require(\"./home_img/background.png\")\r\n-const home_search=require(\"./home_img/search.png\")\r\n-const home_notification=require(\"./home_img/notification.png\")\r\n-const home_qrCode=require(\"./home_img/qrCode.png\")\r\n+const home_background = require(\"./home_img/background.png\")\r\n+const home_search = require(\"./home_img/search.png\")\r\n+const home_notification = require(\"./home_img/notification.png\")\r\n+const home_qrCode = require(\"./home_img/qrCode.png\")\r\n \r\n \r\n-export default img={\r\n+export default img = {\r\n     home_background,\r\n     home_notification,\r\n     home_qrCode,\r\n     home_search\r\n"
+                },
+                {
+                    "date": 1645809242095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,13 @@\n const home_background = require(\"./home_img/background.png\")\r\n const home_search = require(\"./home_img/search.png\")\r\n const home_notification = require(\"./home_img/notification.png\")\r\n const home_qrCode = require(\"./home_img/qrCode.png\")\r\n+const home_moreInformation=require('./home_img/moreIfor.png')\r\n \r\n-\r\n export default img = {\r\n     home_background,\r\n     home_notification,\r\n     home_qrCode,\r\n-    home_search\r\n+    home_search,\r\n+    home_moreInformation\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645809731586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,12 +3,18 @@\n const home_search = require(\"./home_img/search.png\")\r\n const home_notification = require(\"./home_img/notification.png\")\r\n const home_qrCode = require(\"./home_img/qrCode.png\")\r\n const home_moreInformation=require('./home_img/moreIfor.png')\r\n+const home_money=require('./home_img/money.png')\r\n+const home_giveMoney=require('./home_img/giveMoney.png')\r\n+const home_present=require('./home_img/present.png')\r\n \r\n export default img = {\r\n     home_background,\r\n     home_notification,\r\n     home_qrCode,\r\n     home_search,\r\n-    home_moreInformation\r\n+    home_moreInformation,\r\n+    home_giveMoney,\r\n+    home_money,\r\n+    home_present\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645883359808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,14 @@\n const home_moreInformation=require('./home_img/moreIfor.png')\r\n const home_money=require('./home_img/money.png')\r\n const home_giveMoney=require('./home_img/giveMoney.png')\r\n const home_present=require('./home_img/present.png')\r\n+const home_callCar=require('./home_img/phoneCar.png')\r\n+const home_transport=require('./home_img/transport.png')\r\n+const home_boc_hang=require('./home_img/boc_hang.png')\r\n+const home_container=require('./home_img/container.png')\r\n+const home_delivery=require('./home_img/delivery.png')\r\n+const home_storehouse= require('./home_img/storehouse.png')\r\n \r\n export default img = {\r\n     home_background,\r\n     home_notification,\r\n@@ -15,6 +21,12 @@\n     home_search,\r\n     home_moreInformation,\r\n     home_giveMoney,\r\n     home_money,\r\n-    home_present\r\n+    home_present,\r\n+    home_boc_hang,\r\n+    home_callCar,\r\n+    home_container,\r\n+    home_delivery,\r\n+    home_storehouse,\r\n+    home_transport\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1645884901390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,11 @@\n const home_boc_hang=require('./home_img/boc_hang.png')\r\n const home_container=require('./home_img/container.png')\r\n const home_delivery=require('./home_img/delivery.png')\r\n const home_storehouse= require('./home_img/storehouse.png')\r\n-\r\n+const home_bar=require('./home_img/bar.png')\r\n+const home_banner=require('./home_img/banner.png')\r\n+const home_carIof=require('./home_img/carInfor.png')\r\n export default img = {\r\n     home_background,\r\n     home_notification,\r\n     home_qrCode,\r\n@@ -27,6 +29,9 @@\n     home_callCar,\r\n     home_container,\r\n     home_delivery,\r\n     home_storehouse,\r\n-    home_transport\r\n+    home_transport,\r\n+    home_banner,\r\n+    home_bar,\r\n+    home_carIof\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1646659643810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,21 +2,22 @@\n const home_background = require(\"./home_img/background.png\")\r\n const home_search = require(\"./home_img/search.png\")\r\n const home_notification = require(\"./home_img/notification.png\")\r\n const home_qrCode = require(\"./home_img/qrCode.png\")\r\n-const home_moreInformation=require('./home_img/moreIfor.png')\r\n-const home_money=require('./home_img/money.png')\r\n-const home_giveMoney=require('./home_img/giveMoney.png')\r\n-const home_present=require('./home_img/present.png')\r\n-const home_callCar=require('./home_img/phoneCar.png')\r\n-const home_transport=require('./home_img/transport.png')\r\n-const home_boc_hang=require('./home_img/boc_hang.png')\r\n-const home_container=require('./home_img/container.png')\r\n-const home_delivery=require('./home_img/delivery.png')\r\n-const home_storehouse= require('./home_img/storehouse.png')\r\n-const home_bar=require('./home_img/bar.png')\r\n-const home_banner=require('./home_img/banner.png')\r\n-const home_carIof=require('./home_img/carInfor.png')\r\n+const home_moreInformation = require('./home_img/moreIfor.png')\r\n+const home_money = require('./home_img/money.png')\r\n+const home_giveMoney = require('./home_img/giveMoney.png')\r\n+const home_present = require('./home_img/present.png')\r\n+const home_callCar = require('./home_img/phoneCar.png')\r\n+const home_transport = require('./home_img/transport.png')\r\n+const home_boc_hang = require('./home_img/boc_hang.png')\r\n+const home_container = require('./home_img/container.png')\r\n+const home_delivery = require('./home_img/delivery.png')\r\n+const home_storehouse = require('./home_img/storehouse.png')\r\n+const home_bar = require('./home_img/bar.png')\r\n+const home_banner = require('./home_img/banner.png')\r\n+const home_carIof = require('./home_img/carInfor.png'),\r\n+\r\n export default img = {\r\n     home_background,\r\n     home_notification,\r\n     home_qrCode,\r\n@@ -32,6 +33,7 @@\n     home_storehouse,\r\n     home_transport,\r\n     home_banner,\r\n     home_bar,\r\n-    home_carIof\r\n+    home_carIof,\r\n+    \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1646660650882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,7 +33,7 @@\n     home_storehouse,\r\n     home_transport,\r\n     home_banner,\r\n     home_bar,\r\n-    home_carIof,\r\n+    home_carIof\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1646660702925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n const home_delivery = require('./home_img/delivery.png')\r\n const home_storehouse = require('./home_img/storehouse.png')\r\n const home_bar = require('./home_img/bar.png')\r\n const home_banner = require('./home_img/banner.png')\r\n-const home_carIof = require('./home_img/carInfor.png'),\r\n+const home_carIof = require('./home_img/carInfor.png')\r\n \r\n export default img = {\r\n     home_background,\r\n     home_notification,\r\n"
+                },
+                {
+                    "date": 1647007999043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n const home_storehouse = require('./home_img/storehouse.png')\r\n const home_bar = require('./home_img/bar.png')\r\n const home_banner = require('./home_img/banner.png')\r\n const home_carIof = require('./home_img/carInfor.png')\r\n+const company_background=require('./home_img/background_screen4.png')\r\n \r\n export default img = {\r\n     home_background,\r\n     home_notification,\r\n@@ -33,7 +34,7 @@\n     home_storehouse,\r\n     home_transport,\r\n     home_banner,\r\n     home_bar,\r\n-    home_carIof\r\n-    \r\n+    home_carIof,\r\n+    company_background\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1645805769185,

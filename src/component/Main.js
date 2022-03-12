@@ -22,62 +22,62 @@ function Main() {
                 tabBarIcon: ({ color, size, focused }) => {
                     if (focused)
                         return (
-                            <Image source={require('../utils/image/home_img/home_selected.png')} />
+                            <Image source={require('../utils/image/home_img/home_selected.png')} resizeMode="contain" />
                         )
                     else
 
                         return (
-                            <Image source={require('../utils/image/home_img/home.png')} />
+                            <Image source={require('../utils/image/home_img/home.png')} resizeMode="contain" />
                         )
                 }
-                , tabBarActiveTintColor: 'red', tabBarInactiveTintColor: 'black'
+                , tabBarActiveTintColor: 'red', tabBarInactiveTintColor: 'black', tabBarStyle: { height: 40 }
             }} />
-             <Tab.Screen name="History" component={History} options={{
+            <Tab.Screen name="History" component={History} options={{
                 headerShown: false,
                 tabBarIcon: ({ color, size, focused }) => {
                     if (focused)
                         return (
-                            <Image source={require('../utils/image/home_img/history_selected.png')} />
+                            <Image source={require('../utils/image/home_img/history_selected.png')} resizeMode="contain" />
                         )
                     else
 
                         return (
-                            <Image source={require('../utils/image/home_img/history.png')} />
+                            <Image source={require('../utils/image/home_img/history.png')} resizeMode="contain" />
                         )
                 }
-                , tabBarActiveTintColor: 'red', tabBarInactiveTintColor: 'black'
-            }}/>
+                , tabBarActiveTintColor: 'red', tabBarInactiveTintColor: 'black',tabBarStyle: { height: 40 }
+            }} />
             <Tab.Screen name="Help" component={Help} options={{
                 headerShown: false,
                 tabBarIcon: ({ color, size, focused }) => {
                     if (focused)
                         return (
-                            <Image source={require('../utils/image/home_img/help_selected.png')} />
+                            <Image source={require('../utils/image/home_img/help_selected.png')} resizeMode="contain" />
                         )
                     else
 
                         return (
-                            <Image source={require('../utils/image/home_img/help.png')} />
+                            <Image source={require('../utils/image/home_img/help.png')} resizeMode="contain" />
                         )
                 }
-                , tabBarActiveTintColor: 'red', tabBarInactiveTintColor: 'black'
-            }}/>
-           
+                , tabBarActiveTintColor: 'red', tabBarInactiveTintColor: 'black',tabBarStyle: { height: 40 }
+            }} />
+
             <Tab.Screen name="User" component={User} options={{
                 headerShown: false,
                 tabBarIcon: ({ color, size, focused }) => {
                     if (focused)
                         return (
-                            <Image source={require('../utils/image/home_img/user_selected.png')} />
+                            <Image source={require('../utils/image/home_img/user_selected.png')} resizeMode="contain" />
                         )
                     else
 
                         return (
-                            <Image source={require('../utils/image/home_img/user.png')} />
+                            <Image source={require('../utils/image/home_img/user.png')} resizeMode="contain" />
                         )
                 }
-                , tabBarActiveTintColor: 'red', tabBarInactiveTintColor: 'black'
-            }}/>
+                , tabBarActiveTintColor: 'red', tabBarInactiveTintColor: 'black',tabBarStyle: { height: 40 }
+            }} />
         </Tab.Navigator>
     )
 }
