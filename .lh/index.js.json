@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 13,
             "patches": [
                 {
                     "date": 1645631531870,
@@ -52,6 +52,14 @@
                 {
                     "date": 1647097714719,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,11 +7,12 @@\n import {name as appName} from './app.json';\n import AddCompany from './src/component/home/AddCompany';\n import Company from './src/component/home/Company';\n import CreatePaper from './src/component/home/CreatePaper';\n+import SearchCompany from './src/component/home/SearchCompany';\n import Login from './src/component/login/Login_Screen';\n import Onboarding from './src/component/login/Onboarding_Screen';\n import SignIn from './src/component/login/SignIn';\n import MyApp from './src/component/Main';\n import Main from './src/component/Main';\n \n-AppRegistry.registerComponent(appName, () =>AddCompany);\n+AppRegistry.registerComponent(appName, () =>SearchCompany);\n"
+                },
+                {
+                    "date": 1647191065029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,18 @@\n-/**\n- * @format\n- */\n-\n-import {AppRegistry} from 'react-native';\n-\n-import {name as appName} from './app.json';\n-import AddCompany from './src/component/home/AddCompany';\n-import Company from './src/component/home/Company';\n-import CreatePaper from './src/component/home/CreatePaper';\n-import SearchCompany from './src/component/home/SearchCompany';\n-import Login from './src/component/login/Login_Screen';\n-import Onboarding from './src/component/login/Onboarding_Screen';\n-import SignIn from './src/component/login/SignIn';\n-import MyApp from './src/component/Main';\n-import Main from './src/component/Main';\n-\n-AppRegistry.registerComponent(appName, () =>SearchCompany);\n+/**\r\n+ * @format\r\n+ */\r\n+\r\n+import {AppRegistry} from 'react-native';\r\n+\r\n+import {name as appName} from './app.json';\r\n+import AddCompany from './src/component/home/AddCompany';\r\n+import Company from './src/component/home/Company';\r\n+import CreatePaper from './src/component/home/CreatePaper';\r\n+import SearchCompany from './src/component/home/SearchCompany';\r\n+import Login from './src/component/login/Login_Screen';\r\n+import Onboarding from './src/component/login/Onboarding_Screen';\r\n+import SignIn from './src/component/login/SignIn';\r\n+import MyApp from './src/component/Main';\r\n+import Main from './src/component/Main';\r\n+\r\n+AppRegistry.registerComponent(appName, () =>CreatePaper);\r\n"
+                },
+                {
+                    "date": 1647191185605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,5 @@\n import SignIn from './src/component/login/SignIn';\r\n import MyApp from './src/component/Main';\r\n import Main from './src/component/Main';\r\n \r\n-AppRegistry.registerComponent(appName, () =>CreatePaper);\r\n+AppRegistry.registerComponent(appName, () =>SearchCompany);\r\n"
                 }
             ],
             "date": 1645631531870,
