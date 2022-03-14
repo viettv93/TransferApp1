@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 13,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1645631531870,
@@ -60,6 +60,10 @@
                 {
                     "date": 1647191185605,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,5 @@\n import SignIn from './src/component/login/SignIn';\r\n import MyApp from './src/component/Main';\r\n import Main from './src/component/Main';\r\n \r\n-AppRegistry.registerComponent(appName, () =>CreatePaper);\r\n+AppRegistry.registerComponent(appName, () =>SearchCompany);\r\n"
+                },
+                {
+                    "date": 1647270640516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n import {AppRegistry} from 'react-native';\r\n \r\n import {name as appName} from './app.json';\r\n import AddCompany from './src/component/home/AddCompany';\r\n+import ChoseDate from './src/component/home/ChoseDate';\r\n import Company from './src/component/home/Company';\r\n import CreatePaper from './src/component/home/CreatePaper';\r\n import SearchCompany from './src/component/home/SearchCompany';\r\n import Login from './src/component/login/Login_Screen';\r\n@@ -14,5 +15,5 @@\n import SignIn from './src/component/login/SignIn';\r\n import MyApp from './src/component/Main';\r\n import Main from './src/component/Main';\r\n \r\n-AppRegistry.registerComponent(appName, () =>SearchCompany);\r\n+AppRegistry.registerComponent(appName, () =>ChoseDate);\r\n"
                 }
             ],
             "date": 1645631531870,
