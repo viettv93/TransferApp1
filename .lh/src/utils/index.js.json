@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 10,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1645635240373,
@@ -48,6 +48,10 @@
                 {
                     "date": 1646661938032,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n const blue2 = \"#047A9F\"\r\n const green = \"#2CC197\"\r\n const pink =\"#59597C\"\r\n const default_color=\"#E5E5E5\"\r\n+const gray=\"#9C9C9C\"\r\n export default fonts = {\r\n     fontSF,\r\n     fontVerySmall,\r\n     fontSmall,\r\n@@ -32,6 +33,6 @@\n     blue,\r\n     blue2,\r\n     green,\r\n     red,\r\n-    pink, default_color\r\n+    pink, default_color, gray\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647450035833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,11 +15,12 @@\n const red = \"#C42829\"\r\n const blue = \"#009ADD\"\r\n const blue2 = \"#047A9F\"\r\n const green = \"#2CC197\"\r\n-const pink =\"#59597C\"\r\n-const default_color=\"#E5E5E5\"\r\n-const gray=\"#9C9C9C\"\r\n+const pink = \"#59597C\"\r\n+const default_color = \"#E5E5E5\"\r\n+const gray = \"#9C9C9C\"\r\n+const gray2 = \"#E0E0E0\"\r\n export default fonts = {\r\n     fontSF,\r\n     fontVerySmall,\r\n     fontSmall,\r\n@@ -33,6 +34,6 @@\n     blue,\r\n     blue2,\r\n     green,\r\n     red,\r\n-    pink, default_color, gray\r\n+    pink, default_color, gray, gray2\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1645635240373,

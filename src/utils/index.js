@@ -16,9 +16,10 @@ const red = "#C42829"
 const blue = "#009ADD"
 const blue2 = "#047A9F"
 const green = "#2CC197"
-const pink ="#59597C"
-const default_color="#E5E5E5"
-const gray="#9C9C9C"
+const pink = "#59597C"
+const default_color = "#E5E5E5"
+const gray = "#9C9C9C"
+const gray2 = "#E0E0E0"
 export default fonts = {
     fontSF,
     fontVerySmall,
@@ -34,5 +35,5 @@ export default fonts = {
     blue2,
     green,
     red,
-    pink, default_color, gray
+    pink, default_color, gray, gray2
 }

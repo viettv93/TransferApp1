@@ -17,7 +17,8 @@ const home_bar = require('./home_img/bar.png')
 const home_banner = require('./home_img/banner.png')
 const home_carIof = require('./home_img/carInfor.png')
 const company_background=require('./home_img/background_screen4.png')
-
+const callCar_xeTai=require("./home_img/xetai.png")
+const callCar_xeCong=require('./home_img/xeCong.png')
 export default img = {
     home_background,
     home_notification,
@@ -36,5 +37,7 @@ export default img = {
     home_banner,
     home_bar,
     home_carIof,
-    company_background
+    company_background,
+    callCar_xeCong,
+    callCar_xeTai
 }

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1645805769185,
@@ -44,6 +44,10 @@
                 {
                     "date": 1647007999043,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n const home_storehouse = require('./home_img/storehouse.png')\r\n const home_bar = require('./home_img/bar.png')\r\n const home_banner = require('./home_img/banner.png')\r\n const home_carIof = require('./home_img/carInfor.png')\r\n+const company_background=require('./home_img/background_screen4.png')\r\n \r\n export default img = {\r\n     home_background,\r\n     home_notification,\r\n@@ -33,7 +34,7 @@\n     home_storehouse,\r\n     home_transport,\r\n     home_banner,\r\n     home_bar,\r\n-    home_carIof\r\n-    \r\n+    home_carIof,\r\n+    company_background\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647440115339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,10 @@\n const home_bar = require('./home_img/bar.png')\r\n const home_banner = require('./home_img/banner.png')\r\n const home_carIof = require('./home_img/carInfor.png')\r\n const company_background=require('./home_img/background_screen4.png')\r\n-\r\n+const callCar_xeTai=require(\"./home_img/xetai.png\")\r\n+const callCar_xeCong=require('./home_img/xeCong.png')\r\n export default img = {\r\n     home_background,\r\n     home_notification,\r\n     home_qrCode,\r\n@@ -35,6 +36,8 @@\n     home_transport,\r\n     home_banner,\r\n     home_bar,\r\n     home_carIof,\r\n-    company_background\r\n+    company_background,\r\n+    callCar_xeCong,\r\n+    callCar_xeTai\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1645805769185,

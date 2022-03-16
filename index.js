@@ -5,7 +5,9 @@
 import {AppRegistry} from 'react-native';
 
 import {name as appName} from './app.json';
+import History from './src/component/history/History_Screen';
 import AddCompany from './src/component/home/AddCompany';
+import CallCar from './src/component/home/CallCar';
 import ChoseDate from './src/component/home/ChoseDate';
 import Company from './src/component/home/Company';
 import CreatePaper from './src/component/home/CreatePaper';
@@ -16,4 +18,4 @@ import SignIn from './src/component/login/SignIn';
 import MyApp from './src/component/Main';
 import Main from './src/component/Main';
 
-AppRegistry.registerComponent(appName, () =>ChoseDate);
+AppRegistry.registerComponent(appName, () =>Main);
